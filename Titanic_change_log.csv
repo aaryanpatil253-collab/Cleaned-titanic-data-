@@ -1,0 +1,10 @@
+Issue,Finding,Action
+Missing values,0 missing values found,No imputation required because no missing values were found
+Duplicate rows,0 duplicate rows found,No removal required because no duplicate rows were found
+Duplicate Passenger IDs,0 duplicate Passenger IDs found,No correction required because Passenger IDs are unique
+Text whitespace,Checked text columns for leading/trailing whitespace,Whitespace standardized using strip()
+Invalid Survived values,0 invalid values found,No correction required because all values are valid
+Invalid Pclass values,0 invalid values found,No correction required because all values are valid
+Invalid Sex values,0 invalid values found,No correction required because all values are valid
+Invalid Embarked values,0 invalid values found,No correction required because all values are valid
+Potential outliers,Fare: 0 potential outliers; Age: 0 potential outliers,Flagged for review; not automatically removed because unusual values may be legitimate
